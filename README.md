@@ -1,4 +1,4 @@
-# Nome do Mini Projeto
+# Treino de javascript com filter, forEach e sort
 
 Neste mini projeto, você criará uma galeria de produtos em uma página web. Cada produto terá uma imagem que muda ao passar o mouse por cima, com base em dados provenientes de um arquivo data.js. Esse exercício é uma ótima oportunidade para melhorar suas habilidades com manipulação de DOM e eventos em JavaScript, além de praticar a criação de uma interface visual simples e interativa usando apenas HTML, CSS e JavaScript.
 
@@ -19,18 +19,13 @@ E crie o seguinte arquivo:
 ## 🔨 Requisitos
 
 ## Requisito 1: Renderização de Produtos com Imagens
-No arquivo index.html, implemente a renderização dos produtos utilizando a DOM e adicione as imagens com as propriedades definidas no arquivo data.js.
+No arquivo `index.html`, implemente a renderização dos produtos utilizando a DOM e adicione as imagens com as propriedades definidas no arquivo `data.js`.A partir dos dados presentes no array de produtos em `data.js`. Para cada produto, insira uma tag `<img>` com a classe `imageProduct`, configurando o atributo src com o valor de srcImg de cada objeto no array.
 
-Descrição: A partir dos dados presentes no array de produtos em data.js, utilize o método forEach para iterar sobre o array e criar elementos HTML dinamicamente. Para cada produto, insira uma tag <img> com a classe imageProduct, configurando o atributo src com o valor de srcImg de cada objeto no array.
-
-👀 Dicas:
-
+[!TIP] 👀 Dicas:
 Use o método forEach para iterar sobre os produtos.
-Para cada produto, adicione uma tag <img> ao HTML com a classe imageProduct e o atributo src configurado com o valor de srcImg.
 
 ## Requisito 2: Ordenação dos Produtos por Preço e Avaliação
-Implemente a funcionalidade de ordenação dos produtos com base em três critérios: `menor preço`, `maior preço` e `avaliação`.
-Adicione um controle de ordenação (por exemplo, um dropdown ou botões) que permita ao usuário escolher entre ordenar os produtos por "menor preço", "maior preço" ou "avaliação". O comportamento da ordenação deve alterar a ordem dos produtos exibidos na tela conforme o critério selecionado.
+Implemente a funcionalidade de ordenação dos produtos com base em três critérios: `menor preço`, `maior preço` e `avaliação`.O comportamento da ordenação deve alterar a ordem dos produtos exibidos na tela conforme o critério selecionado.
 
 ## Requisito 3: Filtro de Preço Máximo com Range
 Crie um controle de filtro de preço máximo utilizando um input de tipo range. Os produtos cujo preço seja superior ao valor definido pelo range devem ser excluídos da exibição, mostrando apenas os produtos que atendem ao critério de preço.
@@ -43,7 +38,7 @@ Adicione um menu responsivo que seja acessível em dispositivos móveis. O menu 
 
 ## 🔨 Desafio extra para quem quer ir além
 
-Requisito extra 1: Adicione uma animação suave para a transição das imagens ao passar o mouse sobre elas, utilizando a propriedade transition no CSS.
+Requisito extra 1: Adicione uma animação suave para a transição das imagens ao passar o mouse sobre elas.
 
 Requisito extra 2: Implemente um sistema de modal para exibir detalhes completos do produto ao clicar sobre a imagem. Mostre o nome, preço, descrição e outras informações no modal.
 
@@ -66,9 +61,9 @@ Temos uma sugestão de design no Figma. Entretanto, fique à vontade para montar
 - Uso de funções de manipulação de arrays (Filter, ForEach e Sort)
   
 ### CSS
-Estilização simples com CSS para criar um layout agradável e responsivo
-Animações e transições para melhorar a interação com o usuário
+- Estilização simples com CSS para criar um layout agradável e responsivo
+- Animações e transições para melhorar a interação com o usuário
 
 ### Pré requisitos
-Conhecimento básico de HTML, CSS e JavaScript.
-Noções sobre como manipular elementos do DOM e adicionar eventos com JavaScript.
+- Conhecimento básico de HTML, CSS e JavaScript.
+- Noções sobre como manipular elementos do DOM e adicionar eventos com JavaScript.
