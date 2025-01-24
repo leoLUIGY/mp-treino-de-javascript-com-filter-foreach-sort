@@ -48,7 +48,7 @@ Temos uma sugestão de design no Figma. Entretanto, fique à vontade para montar
 
 ### Figma
 
-🔗 [Link do design](https://www.figma.com/community/file/1458939050939229153)
+🔗 [Link do design](https://www.figma.com/community/file/1446265657290370041)
 
 ## 👉🏽 Sobre esse mini-projeto
 
